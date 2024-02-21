@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 130px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 100px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.479);
+}
+.container-calc{
+    width: 380px;
+    height: 100px;
+    background-color: black;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.479);
+}
+
+
+
+
+.container-button{
+    display: flex;
+    justify-content: flex-start;
+    width: 380px;
+    height: 400px;
+    background-color: rgb(199, 199, 199);
+    margin-bottom: 100px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.479);
+}
+
+
+
+.container-calc span{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 100px;
+    margin: 0 15px;
+    font-family: seven segment;
+    color: green;
+}
+
+
+
+.square-numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: calc(400px - 20px);
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 250px;
+    height: calc(400px - 20px);
+    
+   
+}
+.numbers button{
+    min-width: 70px;
+    min-height: 70px;
+    margin: 5px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px 5px rgba(58, 56, 56, 0.252);
+}
+.grow{
+    flex-grow: 2;
+}
+.rectangle-right{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(130px - 20px);
+    height: calc(400px - 20px);
+    margin-top: 10px;
+    margin-right: 10px;
+   
+}
+.operators{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 250px;
+    height: calc(400px - 20px);
+    
+}
+.operators button{
+    min-width: 70px;
+    min-height: 55px;
+    margin: 5px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px 5px rgba(58, 56, 56, 0.252);
+}
+.color-orange{
+    background-color: orange;
+}
+.color-blue{
+    background-color: rgb(177, 177, 255);
+}
